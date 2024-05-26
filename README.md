@@ -10,6 +10,7 @@ This APi, created to testing, study and try new tips in golang.
 - `go.mod`: Module dependencies.
 - `README.md`: Project documentation.
 
+```
 all-day/
 │
 ├── cmd/
@@ -55,6 +56,7 @@ all-day/
 ├── .gitignore
 ├── go.mod
 └── go.sum
+```
 
 ## Getting Started
 
