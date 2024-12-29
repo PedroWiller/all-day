@@ -6,8 +6,8 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"gorm.io/gorm"
 
+	"github.com/PedroWiller/all-day/cmd/api/routers"
 	"github.com/PedroWiller/all-day/configs"
-	"github.com/PedroWiller/all-day/internal/domain/router"
 	"github.com/PedroWiller/all-day/pkg/helpers"
 )
 
@@ -35,5 +35,5 @@ func main() {
 }
 
 func injectRoute(app *fiber.App, db *gorm.DB) {
-	router.UserRouter(app, db)
+	routers.UserRouter(app, db)
 }
